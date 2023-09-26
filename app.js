@@ -12,7 +12,6 @@ newQuoteBtn.addEventListener("click", function getQuote() {
     })
     .catch((err) => console.log(err));
 });
-
 tweetBtn.addEventListener("click", function tweetQuote() {
   let quote = quoteText.innerHTML;
   let author = quoteAuthor.innerHTML;

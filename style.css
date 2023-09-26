@@ -42,12 +42,14 @@ body{
 
 .container .quote {
   position: relative;
+
   padding: 50px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: fit-content;
+  height: fit-content;
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
